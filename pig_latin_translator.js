@@ -1,7 +1,7 @@
-var originalWords = process.argv.slice(2);
+var originalWords = ["pig", "latin", "is", "silly"] // process.argv.slice(2);
 var pigLatinWords = [];
 
-for (var i = 1; i < originalWords.length; i++) {
+for (var i = 0; i < originalWords.length; i++) {
   pigLatinWords.push(translateToPigLatin(originalWords[i]));
 }
 
